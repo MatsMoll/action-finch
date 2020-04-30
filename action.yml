@@ -1,0 +1,9 @@
+name: 'GitHub Action for Finch'
+description: 'A tool to generate automated change logs'
+author: 'Mats E. Mollestad <mats@mollestad.no>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'shield'
+  color: 'orange'
