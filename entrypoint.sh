@@ -76,6 +76,8 @@ function generate_new_release_data {
     git tag $NEXT_VERSION
     CHANGE_LOG="$(finch compare --project-dir="." --versions="${LAST_TAG_NAME} ${NEXT_VERSION}" --use-newline-char --no-fetch)"
 
+    echo "Last version was: ${LAST_VERSION}"
+    
     cat << EOF > new_release_data
 {
   "tag_name": "${NEXT_VERSION}",
