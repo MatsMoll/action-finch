@@ -1,4 +1,4 @@
-FROM swift:5.1
+FROM swift:5.3
 LABEL version="1.0.0"
 LABEL repository="https://github.com/MatsMoll/action-finch"
 LABEL homepage="https://github.com/MatsMoll/action-finch"
